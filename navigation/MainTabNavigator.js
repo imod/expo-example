@@ -57,4 +57,10 @@ export default createBottomTabNavigator({
   HomeStack,
   LinksStack,
   SettingsStack,
+}, {
+  tabBarOptions: {
+    indicatorStyle: {
+      borderTopColor: '#1F487E'
+    }
+  }
 });
